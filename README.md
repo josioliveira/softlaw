@@ -1,7 +1,7 @@
 # Projeto Semestral: Softlaw
 
 
-Criação da aplicação Web usando PHP para cadastro e lista de audiências.
+Criação de aplicação Web usando PHP para cadastro e lista de audiências.
 
 
 <div align="center">
