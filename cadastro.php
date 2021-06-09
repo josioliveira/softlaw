@@ -1,6 +1,5 @@
 <?php
 // incluindo o arquivo de configuração Database.
-
 require_once "includes/config_database.php";
  
 // Definição das variáveis. 
@@ -37,9 +36,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $stmt = mysqli_prepare($db, $sql);
 
         if ($stmt) {
-            // Bind variables to the prepared statement as parameters
-            //Passa as variáveis ​​ao Statement como parâmetros.
-            //"sss" formato dos paramêtros, nota-se (A quantidade tem que ser igual as variáveis contidas).
+           
+            // Passa as variáveis ​​ao Statement como parâmetros.
+            // "sss" formato dos paramêtros, nota-se (A quantidade tem que ser igual as variáveis contidas).
             mysqli_stmt_bind_param($stmt, "ssssss", $numero_processo, $data_audiencia, $horario_audiencia, $advogado, $forum_audiencia, $endereco_forum);
             
             //Executa de fato a instrução que foi preparada no " mysqli_prepare").
@@ -55,7 +54,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Fecha a função statement
         mysqli_stmt_close($stmt);
     
-        // Fecha a conexão
+        // Fecha a conexão BD.
         mysqli_close($db);
         
     }

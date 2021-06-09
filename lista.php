@@ -52,7 +52,7 @@
                             echo "</tr>";
                         }
                            
-                        // Liberar espaço de memória do está sendo usada em consultas(Boas práticas)
+                        // Liberar espaço de memória do está sendo usado em consultas(Boas práticas)
                         mysqli_free_result($result);
                     } else{
                         echo '<tr><td>Não existem Audiências Cadastradas.</td></tr>';
