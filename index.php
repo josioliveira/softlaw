@@ -1,9 +1,3 @@
-<?php
+<!--Criei o include para reaproveitar trechos de outro código. -–>
 
-    include __DIR__.'/vendor/autoload.php';
-
-    include __DIR__.'/includes/header.php';
-    include __DIR__.'/includes/navbar.php';
-    include __DIR__.'/includes/footer.php';
-
-?>
+<?php include 'lista.php'; ?> 

@@ -1,12 +1,14 @@
 
+<!--Barra superior de navegação da página-->
+
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
     <a class="navbar-brand" href="#">
-        <img src="image/softlaw.png" alt="Logo" style="height:32px;"> <!--colocar o logo da Softlaw com fundo transparente-->
+        <img src="image/softlaw.png" alt="Logo" style="height:32px;"> 
     </a>
     <li class="nav-item">
-        <a class="nav-link" href="list.php">Minhas Audiências</a>
+        <a class="nav-link" href="lista.php">Minhas Audiências</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="register.php">Criar Audiências</a>
+        <a class="nav-link" href="cadastro.php">Criar Audiências</a>
     </li>
 </nav>
